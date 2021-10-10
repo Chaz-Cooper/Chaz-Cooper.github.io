@@ -4,7 +4,7 @@
 		<title>Fancify Shamcify</title>
 
 		<!-- link to your script file here -->
-		<script src="./fancifymytext.js"></script>
+		<script src = "./fancifymytext.js"></script>
 		
 		
 	</head>
@@ -15,25 +15,26 @@
 
 		<!-- border field "Text"-->
 			<!-- A large entry field for user to enter text 4 rows 30 columns -->
-			<fieldset name="Text">
-				<label for="Text">Text</label>
-				<textarea rows="4" cols="30" name="input" id="my-text">
+			<fieldset name = "Text">
+				<label for = "Text">Text</label>
+				<textarea rows = "4" cols = "30" name = "input" id = "input-text">
 
 				</textarea>
 			</fieldset>
 
 		<!-- new border called "Fancify"-->
-		<fieldset name="Fancify">
+		<fieldset name = "Fancify">
 				<!-- button label "Bigger!"-->
-				<button id="Bigger" onclick="bigger();">Bigger!</button>
+				<button id = "Bigger" onclick = "bigger();">Bigger!</button>
 
 				<!-- two radio buttons labeled "FancyShmancy" and "BoringBetty"-->
-				<input type="radio" id="Fancify">
-				<label for="FancyShmancy">Fancy Shmancy</label>
+				<input type = "radio" id = "Fancify" onchange = "myAlert();" onclick = "fancyText();">
+				<label for = "FancyShmancy">Fancy Shmancy</label>
 
-				<input type="radio" id="Fancify">
-				<label for="BoringBetty">Boring Betty</label>
+				<input type = "radio" id = "Fancify" onclick = "boringText();">
+				<label for = "BoringBetty">Boring Betty</label>
 		</fieldset>
+			<button id = "Moo" onclick="moo();">Moo!</button>
 
 	</body>
 </html>
