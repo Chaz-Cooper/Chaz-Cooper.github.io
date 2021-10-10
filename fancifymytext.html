@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script src="./fancifymytext.js"></script>
+		
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		<!-- Your UI controls go here -->
+
+		<!-- border field "Text"-->
+			<!-- A large entry field for user to enter text 4 rows 30 columns -->
+			<fieldset name="Text">
+				<label for="Text">Text</label>
+				<textarea rows="4" cols="30" name="input" id="myText">
+
+				</textarea>
+			</fieldset>
+
+		<!-- new border called "Fancify"-->
+		<fieldset name="Fancify">
+				<!-- button label "Bigger!"-->
+				<button id="Bigger" oneclick="bigger()">Bigger!</button>
+
+				<!-- two radio buttons labeled "FancyShmancy" and "BoringBetty"-->
+				<input type="radio" id="Fancify">
+				<label for="FancyShmancy">Fancy Shmancy</label>
+
+				<input type="radio" id="Fancify">
+				<label for="BoringBetty">Boring Betty</label>
+		</fieldset>
+
+	</body>
+</html>
